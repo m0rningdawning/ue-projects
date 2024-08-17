@@ -1,0 +1,88 @@
+# Ignore binaries and intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore the Unreal Engine auto-generated files
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific settings
+*.user
+*.userprefs
+*.log
+*.pdb
+*.opendb
+
+# Ignore config files specific to certain IDEs
+.idea/
+.vscode/
+*.iml
+
+# Ignore build output
+*.target
+*.mod
+*.o
+*.obj
+*.dll
+*.exe
+*.lib
+*.app
+*.ipa
+*.dSYM
+*.log
+*.tmp
+*.lck
+*.lock
+
+# Ignore crash dumps
+*.dmp
+
+# Ignore Unreal Build Tool (UBT) files
+*.sdf
+*.sdf.old
+*.opensdf
+*.opensdf.old
+
+# Ignore project-specific binary and temporary files
+*.idb
+*.pdb
+
+# Ignore plugin binaries and intermediate files
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Ignore Windows specific files
+*.pdb
+*.idb
+*.class
+*.ilk
+*.aps
+*.ncb
+*.scc
+*.obj
+*.pch
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.iobj
+*.ipdb
+*.tlog
+
+# Ignore Mac specific files
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
